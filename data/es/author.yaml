@@ -1,0 +1,15 @@
+# some information about you
+name: "J. C. Espejo-Serna"
+nickname: " "
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "J. C. Espejo-Serna"
+image: "images/author/paramo.jpg"
+# give your some contact information. they will be used in the footer
+##contactInfo:
+#  Email: "juan[punto]espejo1[arroba]unisabana[punto]edu[punto]co"
+
+# some summary about what you do
+summary:
+  - Investigo la ontología de lo mental. 
+  - Pienso en las maneras de discutir en filosofía. 
+  - Enseño en espacios interdisciplinarios.

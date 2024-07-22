@@ -1,0 +1,105 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  enable: false
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Todos
+  filter: "all"
+- name: "Filosofía de la percepción"
+  filter: "filosofía de la percepción"
+- name: "Epistemología"
+  filter: "Epistemología"
+- name: Filosofía de la IA
+  filter: "filosofía de la inteligencia artificial"
+
+# your publications
+publications:
+- title: Presence in the dark &#58; joint attention and the varying modes of being aware of God’s presence
+  publishedIn:
+    name: Religions
+    date: 2024
+    url: https://doi.org/10.3390/rel15060701
+  authors:
+  - name: J.C. Espejo-Serna
+    url: # (Add URL if available)
+  - name: J. A. P-Duarte
+    url: # (Add URL if available)
+  - name: J. E. Arbeláez
+    url: # (Add URL if available)
+  paper:
+    summary: Explores joint attention and different modes of awareness regarding the presence of God.
+    url: https://doi.org/10.3390/rel15060701
+  categories: ["filosofía de la percepción", "teología filosófica"]
+
+- title: Against Radical Enactivism’s narrowmindedness about phenomenality
+  publishedIn:
+    name: Synthese
+    date: 2021
+    url: https://doi.org/10.1007/s11229-019-02261-2
+  authors:
+  - name: J.C. Espejo-Serna
+    url: # (Add URL if available)
+  paper:
+    summary: El artículo critica la perspectiva del Enactivismo Radical (REC) sobre el carácter fenoménico, argumenta que este enfoque tiene una visión demasiado limitada y restrictiva. 
+    url: https://doi.org/10.1007/s11229-019-02261-2
+  categories: ["enactivismo", "filosofía de la percepción"]
+
+- title: Against cognitive homelessness
+  publishedIn:
+    name: Humanitas Hodie
+    date: 2020
+    url: https://doi.org/10.28970/hh.2019.1.a4
+  authors:
+  - name: J.C. Espejo-Serna
+    url: # (Add URL if available)
+  paper:
+    summary: Discusses the concept of cognitive homelessness.
+    url: https://doi.org/10.28970/hh.2019.1.a4
+  categories: ["epistemología", "filosofía de la mente"]
+
+- title: ¿Cuáles son las fronteras en los procesos de desarrollo de IA?
+  publishedIn:
+    name: Dosier Inteligencia artificial -  transformaciones y retos en el sector editorial
+    date: 2020
+    url: https://cerlalc.org/wp-content/uploads/2020/10/Cerlalc_Publicaciones_Dosier_Inteligencia-artificial-Transformaciones-y-retos-en-el-sector-editorial.pdf
+  authors:
+  - name: J.C. Espejo
+    url: # (Add URL if available)
+  paper:
+    summary: Examines the boundaries in AI development processes.
+    url: https://cerlalc.org/wp-content/uploads/2020/10/Cerlalc_Publicaciones_Dosier_Inteligencia-artificial-Transformaciones-y-retos-en-el-sector-editorial.pdf
+  categories: ["filosofía de la inteligencia artificial", "divulgación"]
+
+- title: The limits of Stanley and Williamson’s attack on Ryle’s view about Know-how
+  publishedIn:
+    name: Kriterion - Journal of Philosophy
+    date: 2018
+    url: https://doi.org/10.1515/krt-2018-320306
+  authors:
+  - name: J.C. Espejo-Serna
+    url: # (Add URL if available)
+  paper:
+    summary: Analyzes the limitations of Stanley and Williamson’s critique of Ryle’s view on know-how.
+    url: https://doi.org/10.1515/krt-2018-320306
+  categories: ["Know-how", "epistemología"]
+
+- title: Connecting the dots my own way Sphex-test and flexibility in artificial cognitive agents
+  publishedIn:
+    name: Proceedings of the 1st International Symposium on Towards a Comprehensive Intelligence Test&#58; Reconsidering the Turing Test for the 21st Century
+    date: 2010
+    url: # (Add URL if available)
+  authors:
+  - name: J.C. Espejo-Serna
+    url: # (Add URL if available)
+  paper:
+    summary: Discusses the Sphex-test and flexibility in artificial cognitive agents.
+    url: # (Add URL if available)
+  categories: ["filosofía de la inteligencia artificial"]
+

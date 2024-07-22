@@ -1,0 +1,54 @@
+# section information
+section:
+  name: Educación
+  id: edu
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: false
+  weight: 4
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D. en Filosofía
+  icon: fa-university
+  timeframe: 2011-2016
+  institution:
+    name: The University of Warwick
+    url: "#"
+    #logo: /images/sections/education/Warwick.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  customSections: #(optional)
+    - name: Tesis doctoral
+      content: A Rylean Account of Intelligent Actions and Activities
+    - name: Supervisor
+      content: Guy Longworth
+- name: Maestría en Filosofía de la Mente
+  icon: fa-university
+  timeframe: 2010-2011
+  institution:
+    name: The University of Warwick
+    url: "#"
+    #logo: /images/sections/education/Warwick.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  customSections: #(optional)
+    - name: Tesis de maestría
+      content: Securing the Slippery Metaphor of Friction&#58;  McDowell vs. Davidson
+    - name: Supervisor
+      content: Guy Longworth
+- name: Pregrado en Filosofía
+  icon: fa-university
+  timeframe: 2004-2010
+  institution:
+    name: Universidad Nacional de Colombia
+    url: "#"
+    #logo: /images/sections/education/unal.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  customSections: #(optional)
+    - name: Tesis de pregrado
+      content: Sphex-test and the importance of flexibility in artificial cognitive agents
+    - name: Supervisor
+      content: Adrian Cussins

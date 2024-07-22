@@ -1,0 +1,111 @@
+# section information
+section:
+  name: Acerca
+  id: acerca
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Filósofo
+# your company information
+company:
+  name: Universidad de la Sabana
+  url: "https://www.unisabana.edu.co/filosofia/"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Filósofo interesado en la ontología de lo mental, la forma de llevar las discusiones filosóficas y la docencia de la filosofía.
+ Soy profesor asistente en la Universidad de la Sabana (Colombia), con doctorado en filosofía de la Universidad de Warwick (Inglaterra) y maestría en filosofía de la mente de la misma universidad.
+
+En mi investigación doctoral examiné la noción de agencia inteligente y defendí la importancia de la idea de que los ejercicios de agencia inteligentes no son meras manifestaciones no-mentales de lo mental sino parte de los elementos básicos que componen nuestra mente. 
+Eso me ha llevado a discusiones sobre las maneras de pensar más ampliamente la ontología supuesta por una visión ordinaria (ingenua, quizá) de la mente. 
+
+
+Actualmente trabajo sobre la relación entre el enactivismo y teorías del sentido común en la filosofía de la percepción respecto a la ontología de lo mental que proponen.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+# socialLinks:
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "juan.espejo1@unisabana.edu.co"
+
+# - name: Github
+  # icon: "fab fa-github"
+  # url: "https://www.github.com/example"
+
+# - name: Stackoverflow
+ #  icon: "fab fa-stack-overflow"
+  # url: "#"
+
+# - name: LinkedIn
+  # icon: "fab fa-linkedin"
+ #  url: "#"
+
+# - name: Twitter
+  # icon: "fab fa-twitter"
+  # url: "#"
+
+# - name: Facebook
+  # icon: "fab fa-facebook"
+ #  url: "#"
+
+# - name: Mastadon
+  # icon: "fab fa-mastodon"
+ #  url: "#"
+  # rel: "me noopener"
+
+# - name: ResearchGate
+  # icon: "fab fa-researchgate"
+  # url: "https://www.researchgate.net/profile/john-doe"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+#resourceLinks:
+#- title: "Mi CV"
+#  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+# badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+# - type: certification
+#   name: Istio and IBM Cloud Kubernetes Service
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+
+# - type: certification
+#   name: Artificial Intelligence and Machine Learning
+#   url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+#   badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 85
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
