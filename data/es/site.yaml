@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: John's Blog
+  title: J. C. Espejo-Serna
   type: website
-  description: Portfolio and personal blog of John Doe.
+  description: Página personal de J. C. Espejo-Serna
   image: images/author/john.png
-  url: https://hugo-toha.github.io
+  url: www.espejoserna.com
