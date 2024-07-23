@@ -26,85 +26,82 @@ Durante la asignatura, se enseñarán habilidades hermenéuticas esenciales que 
 
 ## Resultados previstos de aprendizaje
 
-
--  Identificar un tema de tesis apropiado para el proyecto de investigación.
-
--  Escribir una primera síntesis del problema filosófico a tratar.
-
--  Escribir una primera presentación del estado del arte en el tema.
-
--  Formular una hipótesis de investigación preliminar.
-
--  Identificar y caracterizar los objetivos de la investigación.
-
--  Elaborar un primer cronograma de trabajo para terminar la  monografía.
-
-- Realizar una selección de bibliografía relevante para el trabajo de grado.
-
--  Estar en posición de ofrecer una justificación de la pertinencia de la investigación desde sus antecedentes.
-
-- Usar adecuadamente el vocabulario y registro propio de la escritura académica.
-
-- Emplear la gramática, la puntuación y la ortografía adecuada para construir un texto coherente.
-
-- Utilizar apropiadamente uno de los diferentes estilos de citación reconocidos en la comunidad académica (APA, Chicago, MLA, etc.).
+- Emplear la tradición filosófica para intervenir en los debates históricos y actuales de la disciplina y la cultura.
+- Adoptar una postura argumentada a partir de la lectura comprensiva de los textos filosóficos.
+- Interpretar la tradición filosófica empleando las habilidades hermenéuticas relevantes.
+- Elaborar propuestas de investigación filosófica con las herramientas pertinentes para producir conocimiento y comunicarlo en diferentes contextos.
 
 ![](/images/site/borde.jpg)
 
-## Contenido
+## Plan
 
-*Módulo 1: Identificación de un tema*
 
-Delimitación de un tema. Creación de una primera bibliografía. Lectura estructurada. Retroalimentación entre pares.
+| Sesión | Fecha       | Tema                                            | Lectura                                                                                                                                                                 | Encargado |
+|--------|-------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| 1      | 23/7/2024   | Presentación                                    | Ninguna                                                                                                                                                                 | JCES      |
+| 2      | 30/7/2024   | El problema moral                               | Smith, M. (1994). The Moral Problem. Blackwell Publishers. Cap1                                                                                                         |           |
+| 3      | 6/8/2024    | La naturaleza de la ética aplicada              | Darwall, Stephen L. (2003). Theories of Ethics. In R. G. Frey & Christopher Heath Wellman (eds.), A Companion to Applied Ethics. Malden, MA: Wiley-Blackwell. pp. 17–37. |           |
+| 4      | 13/8/2024   | El capitalismo de la vigilancia y el excedente conductual | Zuboff, S. (2020). La era del capitalismo de la vigilancia. Paidós. Cap 2 y 4                                                                                             |           |
+| 5      | 20/8/2024   | Armas de destrucción matemática                 | O'Neil, C. (2016). Weapons of Math Destruction. Crown Publishers.                                                                                                       | Todos     |
+| 6      | 27/8/2024   | Taller primer corte                             |                                                                                                                                                                         |           |
+| 7      | 3/9/2024    | Manipulación y datos                            | Coeckelbergh, M. (2023). Filosofía política de la inteligencia artificial. Ediciones Cátedra.                                                                           |           |
+| 8      | 10/9/2024   | Comunicación en la era digital                  | Nguyen, C. T (2021). How Twitter gamifies communication. In Jennifer Lackey (ed.), Applied Epistemology. New York, NY: Oxford University Press. pp. 410-436.            |           |
+| 9      | 17/9/2024   | SOCOLFIL                                        |                                                                                                                                                                         |           |
+| 10     | 24/9/2024   | Privacidad en la era digital I                  | Véliz, C. (2021) Privacidad es poder: Datos, vigilancia y libertad en la era digital. Debate. Cap 3 y 4                                                                 |           |
+| 11     | 1/10/2024   | Privacidad en la era digital II                 | Véliz, C. (2022). Self-Presentation and Privacy Online. Journal of Practical Ethics 2 (9):30-43.                                                                        |           |
+| 12     | 8/10/2024   | Sesgos y datos                                  | Johnson, G M. (2020). Algorithmic bias: on the implicit biases of social technology. Synthese 198 (10):9941-9961.                                                       |           |
+| 13     | 15/10/2024  | Semana de Receso                                |                                                                                                                                                                         |           |
+| 14     | 22/10/2024  | Algoritmos y zombies morales                    | Véliz, C. (2021). Moral zombies: why algorithms are not moral agents. AI and Society 36 (2):487-497.                                                                    |           |
+| 15     | 29/10/2024  | Ética de las tecnologías                        | Moreno, J. C. (2020). Ética de las tecnologías: Análisis crítico de perspectivas. Ediciones USTA. Caps 1, 2                                                             |           |
+| 16     | 5/11/2024   | Ética de las tecnologías                        | Moreno, J. C. (2020). Ética de las tecnologías: Análisis crítico de perspectivas. Ediciones USTA. Caps 3,4                                                              |           |
+| 17     | 12/11/2024  | Discusión borrador entrega final                |                                                                                                                                                                         |           |
+| 18     | 19/11/2024  | Entrega final                                   |                                                                                                                                                                         |           |
 
-*(5 semanas)*
 
-*Módulo 2 - Delimitación de un tema*
 
-Lectura estructurada. Formulación de una hipótesis de investigación.
-Primera síntesis del asunto a tratar. Búsqueda de directores de tesis. Primera versión del anteproyecto
-
-*(6 semanas)*
-
-*Módulo 3 - Construcción del anteproyecto*
-
-Lectura estructurada. Primeras reuniones con los de directores de tesis. Segunda versión del anteproyecto.
-
-(*6 semanas*)
 
 ![](/images/site/borde.jpg)
 
 ## Evaluación
 
-**Entrega semanal**
+### Taller
+Actividad para asegurar el aprendizaje de los retos que implica la manera en que se usan los datos de las personas en las tecnologías del siglo XXI y los retos éticos que conlleva.
 
-Para cada (casi) todas las semanas, los estudiantes deben leer dos artículos o un capítulo
-de un libro relevante y producir las reseñas correspondientes según las
-indicaciones del profesor. La entrega deberá ser subida a la plataforma
-virtual a más tardar el *24 horas antes de la sesión*. Todos los
-estudiantes empiezan con 5.0 en esta nota; por cada vez que no se
-participe dentro del rango de tiempo especificado, la nota será
-disminuida de acuerdo con los siguientes parámetros: primera vez: -0.5;
-segunda vez: -1.0; tercera vez: -1.5; cuarta vez: -2.0.
+### Ponencia
 
-**Participación**  
+La relatoría debe incluir una reseña crítica del texto, que identifique sus principales argumentos, puntos fuertes y débiles, y lo compare con otras fuentes. Se deben destacar puntos clave para la discusión y formular preguntas abiertas. La presentación sdebe cubrir el tiempo asignado y fomentar la participación. Antes de la sesión, se ha de consultar con el profesor para incorporar sus comentarios y sugerencias.
 
-Cada (casi) todas las semanas, se deberá comentar al menos una entrega de sus compañeros.
-Hagan una pregunta, sugieran bibliografía, propongan un cambio, etc.. Es
-importante que los comentarios sean articulados y busquen mejorar el
-texto de sus compañeros. Los comentarios deben ser realizados en las *24
-horas siguientes a la clase*. Todos los estudiantes empiezan con 5.0 en
-esta nota; por cada vez que no se participe dentro del rango de tiempo
-especificado, la nota será disminuida de acuerdo con los siguientes
-parámetros: primera vez: -0.5; segunda vez: -1.0; tercera vez: -1.5;
-cuarta vez: -2.0.(Vean la política sobre incumplimiento de fechas más abajo.)
+####  Lista de chequeo para la relatoría
 
-**Borrador anteproyecto**
+1. **Reseña Crítica**
+   - [ ] Leer el texto completo y entender sus principales argumentos y tesis.
+   - [ ] Identificar los puntos fuertes y débiles del texto.
+   - [ ] Comparar las ideas del texto con otros autores o corrientes filosóficas.
+   - [ ] Redactar una reseña crítica que incluya un resumen del texto y puntos para la discusiòn
 
-Presentación de una versión del anteproyecto siguiendo el formato dado por el
-profesor.
+2. **Puntos para la Discusión**
+   - [ ] Identificar al menos tres puntos clave del texto que merecen ser discutidos.
+   - [ ] Formular al menos tres preguntas abiertas que inviten al análisis y debate. 
+   - [ ] Proponer conexiones entre el texto y temas actuales o problemas filosóficos más amplios.
 
-**Incumplimiento**
+3. **Adueñarse de la Sesión**
+   - [ ] Preparar una presentación estructurada para exponer la reseña crítica y los puntos de discusión.
+   - [ ] Organizar la presentación de manera que cubra el tiempo asignado para la sesión.
+   - [ ] Incluir pausas para preguntas y comentarios durante la presentación.
+
+4. **Consultar Previamente con el Profesor**
+   - [ ] Programar una reunión con el profesor para discutir la estructura y contenido de la relatoría.
+   - [ ] Discutir el borrador de la reseña crítica y los puntos de discusión.
+   - [ ] Incorporar las sugerencias y comentarios del profesor en la presentación final.
+
+
+
+### Trabajo final
+
+A convenir. Puede ser un ensayo, puede ser un video explicativo. Puede ser una obra de teatro o un cuento. En todo caso debe estar justificado y defendido. Se debe elaborar una rúbrica de evaluación en conjunto con el profesor. 
+
+
+### Incumplimiento
 
 **La vida nos da sorpresas; sorpresas nos da la vida.**  Por eso, todos tienen un control de lectura "de gracia". Es decir, pueden dejar de entregar uno sin problema; el primer control de lectura que les falte no cuenta. Por ejemplo, si no entregan un control de lectura y entregan todos los demás, su nota igual queda en 5.0.
 
@@ -115,10 +112,34 @@ Para todo lo demás, es importante avisar al profesor. Hablemos. No me tienen qu
 
 ## Calificación
 
-| **Actividad**       | **Valor porcentual** | **Corte** |
-|-----------------|------------------|-------|
-| Entrega semanal | 15%              | 1     |
-| Participación   | 15%              | 1     |
-| Entrega semanal | 15%              | 2     |
-| Participación   | 15%              | 2     |
-| Anteproyecto    | 40%              | 3     |
+| Actividad     | Valor porcentual | Corte |
+|---------------|------------------|-------|
+| Taller        | 30%              | 1     |
+| Ponencia      | 30%              | 2     |
+| Trabajo final | 40%              | 3     |
+
+![](/images/site/borde.jpg)
+
+## Bibliografía
+
+Coeckelbergh, M. (2023). *Filosofía política de la inteligencia artificial*. Ediciones Cátedra.
+
+Darwall, S. L. (2003). Theories of Ethics. En R. G. Frey & C. H. Wellman (Eds.), *A Companion to Applied Ethics* (pp. 17–37). Malden, MA: Wiley-Blackwell.
+
+Johnson, G. M. (2020). Algorithmic bias: on the implicit biases of social technology. *Synthese*, 198(10), 9941-9961.
+
+Moreno, J. C. (2020). *Ética de las tecnologías: Análisis crítico de perspectivas*. Ediciones USTA. Capítulos 1 y 2.
+
+Nguyen, C. T. (2021). How Twitter gamifies communication. En J. Lackey (Ed.), *Applied Epistemology* (pp. 410-436). New York, NY: Oxford University Press.
+
+O'Neil, C. (2016). *Weapons of Math Destruction*. Crown Publishers.
+
+Smith, M. (1994). *The Moral Problem*. Blackwell Publishers. Capítulo 1.
+
+Véliz, C. (2021). *Privacidad es poder: Datos, vigilancia y libertad en la era digital*. Debate. Capítulos 3 y 4.
+
+Véliz, C. (2021). Moral zombies: why algorithms are not moral agents. *AI and Society*, 36(2), 487-497.
+
+Véliz, C. (2022). Self-Presentation and Privacy Online. *Journal of Practical Ethics*, 2(9), 30-43.
+
+Zuboff, S. (2020). *La era del capitalismo de la vigilancia*. Paidós. Capítulos 2 y 4.
