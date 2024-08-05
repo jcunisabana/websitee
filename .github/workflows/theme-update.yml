@@ -3,12 +3,11 @@ name: "Theme Update"
 on:
   schedule:
     - cron: "0 0 * * *"
-
-jobs:
-  update-theme:
-  permissions:
+permissions:
       contents: write
       pull-requests: write
+jobs:
+  update-theme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.1.1
