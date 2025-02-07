@@ -11,7 +11,7 @@ menu:
     weight: 4
 tags: ["Tecnología y ecología humana", "Maestría - Psicología"]
 math: true
-draft: true
+draft: false
 
 ---
 
@@ -137,30 +137,40 @@ Vale la pena diferencia entre algunos de los retos que nos presenta Zuboff.
 
 ### Preguntas
 
-- ¿Qué innovación permite el capitalismo de la vigilancia? ¿Eficiencia? ¿Comodidad? ¿Servicios gratuitos?
 
-- Sin el capitalismo de la vigilancia, Google no hubiese podido prosperar. ¿Capitalismo de la vigilancia implica innovación? ¿Debemos detener la innovación en favor de la privacidad*?
+### **1. Libertad, privacidad y manipulación**  
+- ¿Tenemos verdadera libertad de decisión cuando estamos totalmente expuestos y estudiados en términos conductuales y comportamentales?  
+- ¿Cómo influye la recopilación de datos en nuestra libertad personal?  
+- ¿Hasta qué punto las personas son conscientes del grado en que sus comportamientos son manipulados por las corporaciones tecnológicas a través de estos mercados de futuros conductuales?  
+- La capacidad de las empresas para influir y modificar el comportamiento de los usuarios puede tener implicaciones negativas, ya que puede ser utilizada para manipular opiniones y decisiones.  
+- ¿Hasta qué nivel se puede entender la personalización del contenido como manipulación?  
+- Se considera que la vigilancia tiene un límite ético que depende de cada persona y lo influenciable que puede llegar a ser.  
 
-- ¿Es posible tener el nivel de innovación de google sin el Capitalismo de la vigilancia?
+### **2. Poder y regulaciones**  
+- ¿Qué regulaciones son necesarias para frenar el poder desmesurado de las grandes corporaciones tecnológicas sin frenar el desarrollo digital y la innovación?  
+- ¿En qué medida el capitalismo de la vigilancia está cambiando las normas éticas en torno al consentimiento y la propiedad de los datos personales?  
+- ¿Hay regulaciones para limitar el poder que tienen las empresas sobre la información nuestra y todos los datos que recopilan?  
+- El control y la explotación de los datos por parte de unas pocas grandes empresas tecnológicas crean una desigualdad de poder significativa, donde los usuarios tienen poco control sobre cómo se utilizan sus datos.  
+- Existe una preocupación real entre los humanistas: reflexionar sobre si los algoritmos pueden acabar reforzando prejuicios o discriminando a ciertos grupos de personas.  
 
-- ¿Debería haber más restricciones a la tecnología y su uso incluso si eso significa ponerle más trabas a la innovación?
+### **3. Beneficios, riesgos y sostenibilidad**  
+- ¿Será posible encontrar un equilibrio entre la innovación tecnológica y la protección de la información de los ciudadanos?  
+- La recopilación masiva de datos plantea preocupaciones sobre la privacidad y la falta de consentimiento informado.  
+- ¿Hasta qué punto los beneficios económicos generados por el modelo de capitalismo de la vigilancia compensan los riesgos éticos asociados con la explotación de datos personales?  
+- ¿El dilema ético del capitalismo de la vigilancia y la deshumanización de los datos hace sostenible este modelo por muchos años más?  
+- ¿Es realmente sostenible a largo plazo el modelo de negocio de Google basado en la vigilancia, o podría enfrentar un rechazo más amplio de los usuarios en busca de mayor privacidad?  
+- ¿Hay vuelta atrás a la era donde se priorice el individuo sobre el beneficio corporativo o capitalista?  
 
-- ¿Puede la innovación cohexistir de manera pacífica sin el capitalismo de la vigilancia?
+### **4. Vigilancia y su impacto en la vida cotidiana**  
+- ¿Qué tan beneficiados nos vemos como usuarios al experimentar estrategias publicitarias basadas sobre la predicción de nuestros comportamientos?  
+- ¿Hoy valoramos tanto el uso de estas herramientas que de verdad no nos importa el uso de nuestra información?  
+- Finalmente, siento que, con la lectura, fui más consciente de lo observados que estamos, lo que me hizo cuestionar hasta qué punto lo hemos normalizado.  
+- Porque, aunque sabemos de la extracción de datos y la vigilancia constante, también nos hemos adaptado a esta realidad y funcionamos con ella, aun si la idea nos causa incomodidad.  
+- ¿Con la vigilancia realmente ya no hay nada de privacidad en estas plataformas para los usuarios?  
 
-
-- ¿Qué retos le presenta el capitalismo de la vigilancia a la democracia? ¿Manipulación de la opinión pública? ¿Falta de control? ¿Inequidad?
-
-- ¿Qué beneficios le presenta el capitalismo de la vigilancia a la democracia? ¿Mayor participación? ¿Políticas basadas en evidencia? ¿Crecimiento económico?
-
-- ¿Qué retos le presenta el capitalismo de la vigilancia a la libertad? ¿Manipulación? Discriminación? ¿Inequidad?
-
-- ¿Qué beneficios le presenta el capitalismo de la vigilancia a la libertad? Comodidad? Participación política? ¿Accesso a la información?
-
-
-- ¿Qué retos le presenta el capitalismo de la vigilancia a la privacidad? Falta de consentimiento? Discriminación y perfilamiento? efecto inhibidor/ disuasorio?
-
-- ¿Qué beneficios le presenta el capitalismo de la vigilancia a la privacidad? Personalización? Eficiencia ? ¿mayor seguridad?
-
+### **5. Impacto ecológico y gestión de datos**  
+- No se mencionan las implicaciones ecológicas de la manipulación masiva de información, como el uso excesivo de recursos para el mantenimiento de la data.  
+- ¿Cómo se logra recopilar y almacenar toda esta información con seguridad?  
 
 
 ## Para la próxima semana
