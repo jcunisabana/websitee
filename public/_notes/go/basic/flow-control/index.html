@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Flow Control</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.51f8bd41e2048305804670a150758388ec30ea874e1b2db6a6a7632105c8945f.css" integrity="sha256-Ufi9QeIEgwWARnChUHWDiOww6odOGy22pqdjIQXIlF8=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png" />
+
+<meta property="og:url" content="http://localhost:1313/_notes/go/basic/flow-control/">
+  <meta property="og:site_name" content="J.C. Espejo-Serna">
+  <meta property="og:title" content="Flow Control">
+  <meta property="og:description" content="Condition if day == &#34;sunday&#34; || day == &#34;saturday&#34; { rest() } else if day == &#34;monday&#34; &amp;&amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&#34;Uh oh&#34;) Switch switch day { case &#34;sunday&#34;: // cases don&#39;t &#34;fall through&#34; by default! fallthrough case &#34;saturday&#34;: rest() default: work() } Loop for count := 0; count &lt;= 10; count&#43;&#43; { fmt.Println(&#34;My counter is at&#34;, count) } entry := []string{&#34;Jack&#34;,&#34;John&#34;,&#34;Jones&#34;} for i, val := range entry { fmt.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="_notes">
+
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Flow Control">
+  <meta name="twitter:description" content="Condition if day == &#34;sunday&#34; || day == &#34;saturday&#34; { rest() } else if day == &#34;monday&#34; &amp;&amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&#34;Uh oh&#34;) Switch switch day { case &#34;sunday&#34;: // cases don&#39;t &#34;fall through&#34; by default! fallthrough case &#34;saturday&#34;: rest() default: work() } Loop for count := 0; count &lt;= 10; count&#43;&#43; { fmt.Println(&#34;My counter is at&#34;, count) } entry := []string{&#34;Jack&#34;,&#34;John&#34;,&#34;Jones&#34;} for i, val := range entry { fmt.">
+
+    
+    
+<meta name="description" content="Flow Control" />
+
+
+    
+
+    
+        
+            
+            
+                
+                
+                
+  
+
+
+            
+
+            
+            
+
+            
+            
+
+            
+            
+
+            
+
+            
+        
+    
+
+
+
+
+<script>
+      theme = localStorage.getItem('darkmode:color-scheme') || 'system';
+      if (theme == 'system') {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        } else {
+          theme = 'light';
+        }
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+
+  <body class="type-_notes kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
+  <div class="container">
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
+    </button>
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/main-logo_hu9ad2f25a877e6fef77c7a3dbef5094ad_6881_42x0_resize_box_3.png" id="logo" alt="Logo">
+      J.C. Espejo-Serna</a>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Inicio</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#acerca">Acerca</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#featured-posts">Asignaturas del semestre actual</a>
+                </li>
+              
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/main-logo_hu9ad2f25a877e6fef77c7a3dbef5094ad_6881_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/inverted-logo_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Búsqueda" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/cienciaenfermeria/"> Filosofía de la ciencia</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/cienciaenfermeria/syllabus/" title="Syllabus">Syllabus</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/cienciaenfermeria/semana-1/" title="Semana 1">Semana 1</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/mif/"> Metodología de la investigación filosófica</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/mif/syllabus/" title="Syllabus">Syllabus</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/mif/semana-1/" title="Semana 1">Semana 1</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/tecyeco/"> Tecnología y ecología humana</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/tecyeco/pel%C3%ADculas-recomendadas/" title="Películasrecomendadas">Películasrecomendadas</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/tecyeco/syllabus/" title="Syllabus">Syllabus</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/tecyeco/semana-1/" title="Semana 1">Semana 1</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/tecyeco/semana-2/" title="Semana 2">Semana 2</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/eticadatos/"> Ética de datos</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class=" list-link" href="/posts/eticadatos/syllabus/" title="Syllabus">Syllabus</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/john_hu7f9991f5b5d471ecdfc6cff3db1a9fe6_6397_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">J. C. Espejo-Serna</h5>
+          <p class="text-muted">lunes, 1 de enero de 1 | 1 minuto</p>
+        </div>
+        
+        
+        <div class="title">
+          <h1>Flow Control</h1>
+        </div>
+
+        
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+        
+        <div class="post-content" id="post-content">
+          <!-- Condition -->
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>Condition</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#a6e22e">day</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;sunday&#34;</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">day</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;saturday&#34;</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">rest</span>()
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">day</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;monday&#34;</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">isTired</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">groan</span>()
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">work</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">doThing</span>(); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Uh oh&#34;</span>)
+</span></span></code></pre></div></div>
+            </div>
+        
+    </div>
+</div>
+
+<!-- Switch -->
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>Switch</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">day</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;sunday&#34;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// cases don&#39;t &#34;fall through&#34; by default!
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">fallthrough</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;saturday&#34;</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">rest</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">default</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">work</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></div>
+            </div>
+        
+    </div>
+</div>
+
+<!-- Loop -->
+<div class="note-card ">
+    <div class="item">
+        <h5 class="note-title"><span>Loop</span></h5>
+        
+            <div class="card">
+                <div class="card-body"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">count</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">count</span> <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">10</span>; <span style="color:#a6e22e">count</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;My counter is at&#34;</span>, <span style="color:#a6e22e">count</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">entry</span> <span style="color:#f92672">:=</span> []<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;Jack&#34;</span>,<span style="color:#e6db74">&#34;John&#34;</span>,<span style="color:#e6db74">&#34;Jones&#34;</span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">val</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">entry</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Printf</span>(<span style="color:#e6db74">&#34;At position %d, the character %s is present\n&#34;</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">val</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">n</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">x</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">42</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> <span style="color:#a6e22e">n</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">x</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">n</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">guess</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div></div>
+            </div>
+        
+    </div>
+</div>
+
+
+        </div>
+
+        
+        <div class="row ps-3 pe-3">
+        
+          <div class="col-md-6 share-buttons">
+          
+            <strong>Compartir en:</strong>
+            
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f&text=Flow%20Control&via=J.C.%20Espejo-Serna" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f&title=Flow%20Control" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f&title=Flow%20Control" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Flow%20Control http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn icon-button" href="mailto:?subject=Flow%20Control&body=http%3a%2f%2flocalhost%3a1313%2f_notes%2fgo%2fbasic%2fflow-control%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/hugo-toha/hugo-toha.github.io/edit/main/content/_notes%5cgo%5cbasic%5cflow-control%5cindex.md" title="Mejorar esta página" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Mejorar esta página
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+  
+</div>
+
+      <hr />
+
+      
+      
+        
+    
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function () {
+      
+      
+      if (window.location.hostname == "localhost") return;
+
+      var dsq = document.createElement("script");
+      dsq.type = "text/javascript";
+      dsq.async = true;
+      var disqus_shortname = "toha-example-site";
+      dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+      (
+        document.getElementsByTagName("head")[0] ||
+        document.getElementsByTagName("body")[0]
+      ).appendChild(dsq);
+    })();
+  </script>
+  <noscript
+    >Por favor, activa JavaScript para ver el
+    <a href="https://disqus.com/?ref_noscript"
+      >comentarios cortesía de Disqus.</a
+    ></noscript
+  >
+  <a href="https://disqus.com/" class="dsq-brlink"
+    >comentarios cortesía de <span class="logo-disqus">Disqus</span></a
+  >
+
+
+
+
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center ps-3">Contenido</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents"></nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navegación</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#acerca">Acerca</a>
+                </li>
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#featured-posts">Asignaturas del semestre actual</a>
+                </li>
+              
+              
+              
+              
+              
+              
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contacto</h5>
+          <ul>
+            
+              
+                <li><span>Email: </span> <span>juan[punto]espejo1[arroba]unisabana[punto]edu[punto]co</span></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    <hr />
+    <div class="container">
+      <p id="disclaimer"><strong>Aviso de responsabilidad:</strong> This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses. You can modify or distribute the theme without requiring any permission from the theme author. However, the theme author does not provide any warranty or takes any liability for any issue with the theme.</p>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2020 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Funcionando con
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.48f6d393474594bd634892e1a9b6263ab970f9b50ba72ab71114a91134170c01.js" integrity="sha256-SPbTk0dFlL1jSJLhqbYmOrlw&#43;bULpyq3ERSpETQXDAE=" defer></script>
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>
